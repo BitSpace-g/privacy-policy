@@ -2,107 +2,57 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Privacy Policy - Stack Buddies</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy — Stack Buddies</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; line-height: 1.65; max-width: 760px; margin: 0 auto; padding: 32px 20px; color: #222; background: #fff; }
+    h1 { line-height: 1.2; } h2 { font-size: 1.3rem; margin-top: 2rem; }
+    a { color: #0066cc; overflow-wrap: anywhere; }
+    li { margin: .5rem 0; } footer { margin-top: 2rem; color: #555; }
+  </style>
 </head>
 <body>
-  <h1>Privacy Policy</h1>
-  <p><strong>Last updated:</strong> June 22, 2026</p>
+<main>
+  <h1>Stack Buddies Privacy Policy</h1>
+  <p><strong>Last updated:</strong> September 11, 2026</p>
+  <p>NaHan develops Stack Buddies. This policy explains the information processed by the game, our game services, and the providers that support advertising, purchases, and optional leaderboards.</p>
 
-  <p>
-    <strong>Stack Buddies</strong> ("we", "our", or "the app") is a mobile game
-    developed by BitSpace. This Privacy Policy explains how information may be
-    collected, used, and disclosed when you use our app.
-  </p>
+  <h2>Game saves and online services</h2>
+  <p>The game saves settings, scores, selected cube expressions and colors, and other progress on your device. It also uses Firebase Authentication to create an anonymous account identifier without asking for your name, email, or password. Authentication credentials are stored on your device so the game can access your server records.</p>
+  <p>Our Firebase services process this identifier, paid and advertising ticket balances, advertising reward and revive events, purchase entitlements, and transaction timestamps. These records let us maintain balances, verify rewards and purchases, prevent duplicate grants, and investigate errors or abuse. Service providers also process technical request information, such as IP addresses and operational logs, to run and secure these services.</p>
+  <p>Anonymous does not mean that no data is stored: the identifier connects these game records. Removing the app or clearing local scores does not automatically delete server records. Connecting a leaderboard account does not by itself link or back up the anonymous ticket wallet.</p>
 
-  <h2>1. Information We Collect</h2>
-  <p>
-    We do not directly collect personal information from users. However, the app
-    may use third-party services that automatically collect certain information,
-    such as:
-  </p>
+  <h2>Purchases</h2>
+  <p>Apple App Store or Google Play processes payments. We do not receive your payment-card details. The game sends purchase tokens or transaction identifiers and product information to our verification service. We verify purchases with the relevant store and keep purchase records, including order or hashed transaction identifiers, product and quantity, purchase status and time, granted tickets or entitlements, and refund-related records. Apple verification may also provide storefront, currency, and price information.</p>
 
-  <ul>
-    <li>Advertising ID</li>
-    <li>Device information</li>
-    <li>App usage data, such as ad impressions, ad clicks, and ad performance data</li>
-    <li>Purchase-related information processed by Google Play or Apple App Store if you make an in-app purchase</li>
-  </ul>
+  <h2>Advertising and choices</h2>
+  <p>The game uses Google AdMob and Google's User Messaging Platform. Depending on your device settings, consent, and the ad request, the advertising SDK may process IP addresses and approximate location, device or advertising identifiers, ad views and interactions, and diagnostic and performance information. These data support ad delivery, measurement, fraud prevention, and service improvement.</p>
+  <p>For rewarded-ad verification, the game supplies its anonymous Firebase account identifier and a reward-event identifier to AdMob so a signed reward callback can be associated with the correct game account. Our server keeps reward and verification records to prevent duplicate grants and investigate errors.</p>
+  <p>On iOS, when the system permits a tracking request, the game explains the choice and asks through Apple's App Tracking Transparency prompt. If you allow it, your advertising identifier can be shared with Google AdMob for personalized advertising and advertising measurement across apps and websites. You can decline and continue playing. Apple controls when the system prompt is available and lets you change this permission in device settings.</p>
+  <p>Where the consent service makes privacy choices available, you can reopen them from the game's Settings privacy menu. You can also manage advertising and tracking permissions in your device settings. Rewarded advertisements are optional. Purchasing the advertised banner-removal product removes banners; it does not represent a request to erase previously processed data.</p>
+  <p>See <a href="https://policies.google.com/privacy">Google's Privacy Policy</a> and <a href="https://policies.google.com/technologies/ads">Google's advertising information</a> for Google's practices and controls.</p>
 
-  <h2>2. How Information Is Used</h2>
-  <p>
-    Information collected through third-party services may be used for the following purposes:
-  </p>
+  <h2>Optional leaderboards</h2>
+  <p>If you connect Apple Game Center or Google Play Games, that service processes your game profile and scores according to its settings and privacy policy. The game may access the service's player identifier and display name and submit scores to show your ranking. Your leaderboard profile and scores may be visible to other players through that service. Core gameplay does not require you to connect a leaderboard account.</p>
 
-  <ul>
-    <li>Displaying advertisements</li>
-    <li>Analyzing ad performance</li>
-    <li>Processing in-app purchases</li>
-    <li>Maintaining and improving the app</li>
-  </ul>
+  <h2>Support and external links</h2>
+  <p>If you email us, we receive your email address, message, and any details you choose to include. The game's support message includes a support ID, app version, platform, device model, and locale. You can review or remove these details before sending. Copy Support Info places the support text on your device clipboard; it does not send an email.</p>
+  <p>Instagram and other external links open services governed by their own privacy policies.</p>
 
-  <h2>3. Third-Party Services</h2>
-  <p>
-    The app may use third-party services that have their own privacy policies.
-  </p>
+  <h2>Providers, retention, and your requests</h2>
+  <p>We use Google Firebase and Google Cloud to host authentication, game records, and verification services; Google AdMob for advertising; and Apple and Google services for purchases and leaderboards. Providers may process information in countries other than your own. See <a href="https://firebase.google.com/support/privacy">Firebase's privacy information</a> and <a href="https://www.apple.com/legal/privacy/">Apple's Privacy Policy</a>.</p>
+  <p>Game and purchase records are retained while the game account is active to maintain entitlements, prevent duplicate transactions, resolve support requests, and handle fraud or refunds. The service does not automatically expire active accounts after a fixed period.</p>
+  <h2 id="delete-game-account">Delete your game account</h2>
+  <p>In the game, open <strong>Settings → Privacy Settings → Delete Game Account</strong>. After confirmation, the service deletes the anonymous authentication identity, its wallet and game service records, and associated reward and revive history. When the server confirms completion, the game also clears local scores, settings, support ID and saved authentication credentials, including their local backup copies. Paid and advertising tickets are lost; account deletion does not issue a purchase refund. A valid Remove Ads purchase can be restored using the same store account.</p>
+  <p>The game saves a deletion receipt before sending the request so you can check its status after restarting or losing your connection. Delayed requests are retried every 15 minutes. Pending requests remain queued until processed. A completed server receipt and the temporary deletion marker are removed after seven days; the game retains its local receipt until you explicitly start a new guest account. It will not report a missing or expired receipt as confirmed deletion. If confirmation is unavailable, the screen offers another check and support email.</p>
+  <p>To prevent consumed purchases from being redeemed again, we retain minimal hashed transaction identifiers with store, product, deletion and refund status, without the deleted account's ownership ID, order details or timestamps. An entitlement restored by a different active account may remain associated with that active account. Apple and Google manage their own store accounts, payment records and leaderboards. Provider operational logs and support correspondence are handled separately under their applicable retention practices.</p>
+  <p>For access, correction, deletion help or other privacy requests, email <a href="mailto:inbox.nahan@gmail.com">inbox.nahan@gmail.com</a>. The in-game deletion support email can include the saved receipt and game account ID; you can review or remove these before sending. We may need information to identify the relevant records and verify your request.</p>
+  <p>You can also use the <a href="support/stack-buddies.html#delete-game-account">account or data deletion request on our support page</a>, including if you no longer have the app.</p>
 
-  <ul>
-    <li>Google AdMob</li>
-    <li>Google Play Billing</li>
-    <li>Apple In-App Purchase</li>
-  </ul>
-
-  <p>Google Privacy Policy:</p>
-  <p>
-    <a href="https://policies.google.com/privacy" target="_blank">
-      https://policies.google.com/privacy
-    </a>
-  </p>
-
-  <p>Google Advertising Technologies:</p>
-  <p>
-    <a href="https://policies.google.com/technologies/ads" target="_blank">
-      https://policies.google.com/technologies/ads
-    </a>
-  </p>
-
-  <p>Apple Privacy Policy:</p>
-  <p>
-    <a href="https://www.apple.com/legal/privacy/" target="_blank">
-      https://www.apple.com/legal/privacy/
-    </a>
-  </p>
-
-  <h2>4. User Control</h2>
-  <p>
-    You can limit personalized advertising through your device settings.
-  </p>
-
-  <ul>
-    <li><strong>Android:</strong> Settings &gt; Google &gt; Ads</li>
-    <li><strong>iOS:</strong> Settings &gt; Privacy &amp; Security &gt; Tracking or Apple Advertising</li>
-  </ul>
-
-  <h2>5. Children's Privacy</h2>
-  <p>
-    We do not knowingly collect personal information from children. If you believe
-    that a child has provided personal information through the app, please contact us
-    and we will take appropriate action.
-  </p>
-
-  <h2>6. Contact Us</h2>
-  <p>
-    If you have any questions about this Privacy Policy, please contact us at:
-  </p>
-
-  <p>
-    Email: <a href="mailto:hello.bitspace@gmail.com">hello.bitspace@gmail.com</a>
-  </p>
-
-  <h2>7. Changes to This Policy</h2>
-  <p>
-    We may update this Privacy Policy from time to time. Any changes will be posted
-    on this page.
-  </p>
+  <h2>Children and changes to this policy</h2>
+  <p>The game does not ask players to enter a name or email to play, but the automatic processing described above still occurs. If you believe a child has provided information that should be removed, contact us so we can investigate and address it. Changes to this policy will be posted on this page with an updated date.</p>
+  <p><strong>Privacy and support contact:</strong> <a href="mailto:inbox.nahan@gmail.com">inbox.nahan@gmail.com</a></p>
+</main>
+<footer><a href="support/stack-buddies.html">Stack Buddies Support</a> · © 2026 NaHan</footer>
 </body>
 </html>
